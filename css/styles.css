@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-bold";
+  font-family: "Montserrat";
 }
 a{
   font-family: "Ubuntu", sans-serif;
@@ -11,7 +11,7 @@ a{
 
 /*headings*/
 big-heading {
-font-family: "Montserrat-Black";
+font-family: "Montserrat";
 line-height: 1.5;
 font-size: 3.5rem;
 }
