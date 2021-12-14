@@ -15,7 +15,10 @@ font-family: 'Roboto', sans-serif;
 line-height: 1.5;
 font-size: 10rem;
 }
-
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
 /*Containers*/
 .container-fluid{
   padding:7% 15%;
