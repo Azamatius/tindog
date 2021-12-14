@@ -8,24 +8,42 @@ font-family: "Montserrat-black";
 a{
   font-family: 'Ubuntu', sans-serif;
 }
+
 /*headings*/
 big-heading {
   font-weight: 900;
 line-height: 1.5;
 }
-/*Containers*/
 
+/*Containers*/
 .container-fluid{
   padding:7% 15%;
 }
-/*Title section*/
-#title {
+
+/*sections*/
+.colored-section{
   background-color: #ff4c68;
 color:#fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/*Title section*/
+#title {
 text-align: left;
 }
 #title .container-fluid{
   padding:3% 15% 7%;
+}
+
+/* title image */
+.title-image {
+transform: rotate(25deg);
+width: 10%;
+position:absolute;
+right: 30%;
+}
 
 /* buttons */
 .download-btn {
@@ -47,19 +65,14 @@ text-align: left;
   padding: 0 18px;
 }
 
-/* title image */
-.title-image {
-transform: rotate(25deg);
-width: 10%;
-position:absolute;
-right: 30%;
-}
+
 /* icons */
 .icon {
 color: #ef8172;
 margin-bottom: 1rem;
 }
 .icon:hover{color: #ff4c68;}
+
 /* features */
 feature-title {
   font-size: 1.5rem;
@@ -67,17 +80,13 @@ feature-title {
 .feature-h3 {
   white-space: nowrap;
 }
-
 #features {
-  background-color: #fff;
 position: relative;
 z-index: 1;
 }
 
 /* testimonials */
 #testimonials {
-  background-color: #ff4c68;
-color:#fff;
 }
 testimonial-text {
 font-size: 3rem;
@@ -90,8 +99,6 @@ font-size: 3rem;
 }
 
 #press{
-  color:#fff;
-  background-color: #ff4c68;
   padding-bottom:3%;
 }
 .press-logo{
@@ -113,6 +120,7 @@ margin: 20px 20px 50px;
 .pricing-column {
   padding: 3% 2%;
 }
+
 @media (max-width: 1028px)
 {
   #title{
@@ -125,6 +133,7 @@ margin: 20px 20px 50px;
     margin-top: 2rem;
   }
 }
+
 /* cta section */
 #cta {
   background-color: #ff4c68;
