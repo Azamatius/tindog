@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
-font-family: "Montserrat-black";
+font-family: "Montserrat-black-900";
 }
 a{
   font-family: 'Ubuntu', sans-serif;
@@ -38,7 +38,7 @@ color:#fff;
 /* title image */
 .title-image {
 transform: rotate(25deg);
-width: 10%;
+width: 60%;
 position:absolute;
 right: 30%;
 }
