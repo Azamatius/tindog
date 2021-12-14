@@ -83,6 +83,9 @@ feature-title {
 position: relative;
 z-index: 1;
 }
+.feature-box {
+  padding: 4.5%;
+}
 
 /* testimonials */
 #testimonials {
@@ -98,6 +101,7 @@ font-size: 3rem;
   margin:20;
 }
 
+/*press*/
 #press{
   padding-bottom:3%;
    background-color: #ef8172;
