@@ -87,6 +87,7 @@ z-index: 1;
 
 /* testimonials */
 #testimonials {
+  background-color: #ef8172;
 }
 testimonial-text {
 font-size: 3rem;
